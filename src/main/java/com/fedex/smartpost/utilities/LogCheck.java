@@ -10,7 +10,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 
 import com.fedex.smartpost.utilities.remote.RemoteService;
 import com.fedex.smartpost.utilities.remote.RemoteServiceImpl;
@@ -93,7 +92,7 @@ public class LogCheck {
 		String username;
 		String password;
 
-		log.info("Staring LogCheck...");
+		log.info("Starting LogCheck...");
 		if (args.length == 2) {
 			username = args[0];
 			password = args[1];
